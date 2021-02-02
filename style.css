@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightslategrey;
+}
+
+.container {
+  width: 700px;
+  height: 400px;
+  background-color: darkcyan;
+  margin-left: 420px;
+  margin-top: 100px;
+  justify-content: center;
+  box-shadow: 0 10px 15px;
+  border-radius: 15px;
+}
+
+.card {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  padding-top: 150px;
+  line-height: 30px;
+}
+
+.card h1 {
+  font-size: 70px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.card .desc {
+  color: #fff;
+  font-size: 20px;
+}
+
+.answer {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.card .btn {
+  font-size: 20px;
+  padding: 3px 28px;
+  background-color: #0e3854;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+}
+
+.card .input-field {
+  height: 29px;
+}
